@@ -24,7 +24,7 @@ class Plugin extends Base
 
     public function getPluginDescription()
     {
-        return t('Adds project neame header to the public board view');
+        return t('Displays the project name on public board views for that project');
     }
 
     public function getPluginAuthor()
@@ -39,6 +39,6 @@ class Plugin extends Base
 
     public function getPluginHomepage()
     {
-        return 'https://wycre.net';
+        return 'https://github.com/wycre/kanboard-PublicHeader';
     }
 }
